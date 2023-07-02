@@ -1,5 +1,8 @@
+/* commented out information is the solution I came up with.. results were similar but not exact. */
+
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -8,8 +11,36 @@ img {
 }
 
 .title {
+  margin-bottom: 32px;
+/*padding-bottom: 32px; */
+  display: flex;
+  justify-content: center;
   font-size: 36px;
   font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  
+}
+
+/* I created a class for each "card" and added the style.. it worked but was not the most efficient.
+
+.one, 
+.two,
+.three,
+.four
+*/
+
+.info {
+  max-width: 200px;
+/*width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;*/
 }
 
 /* do not edit this footer */
